@@ -1,0 +1,80 @@
+.register{    
+    margin-top: 80px;
+    .register-box{
+        .register-head{
+            a{
+                font-size: 45px;
+                text-decoration: none;
+                color: gray;
+            }
+            span{
+                font-size: 45px;
+                color: gray;
+                margin-left: 10px;
+            }
+            .active-btn{
+                color: #000;
+            }
+        }
+        .register-form-middle{
+            .form-underline{
+                padding: 10px 270px 10px 5px;
+                border: none;
+                position: relative;
+                border-bottom: 1px solid #000;
+                font-size:15px;
+                display: block;
+                margin-top: 20px;
+            }
+        }
+        .register-form-bottom{
+            margin-top: 30px;
+            .register-form-next{
+                a{
+                    background-color: #ccc;
+                    padding: 10px 20px;
+                    color: #000;
+                    text-decoration: none;
+                    font-weight: 500;
+                    transition: .5s ease;
+                }
+                &:hover{
+                    a{
+                        color: #fff;
+                        background-color: #223260;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    .register{
+        .register-box{
+            .register-head{
+                margin-bottom: 20px;
+                a{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+                .active-btn{
+                    color: #000;
+                }
+            }
+            .register-form-middle{
+                .form-underline{
+                    font-size: 16px;
+                    padding: 10px 110px 10px 5px;
+                    border: none;
+                    position: relative;
+                    border-bottom: 1px solid #000;
+                    display: block;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

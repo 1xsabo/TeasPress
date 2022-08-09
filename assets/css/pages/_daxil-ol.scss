@@ -1,0 +1,90 @@
+.sign-in-page{
+    margin-top: 80px;
+    .sign-in-page-head{
+        a{
+            font-size: 45px;
+            text-decoration: none;
+            color: gray;
+        }
+        span{
+            font-size: 45px;
+            color: gray;
+            margin-left: 10px;
+        }
+        .active-btn{
+            color: #000;
+        }
+    }
+    .sign-in{
+        margin-top: 60px;
+        form{
+            position: relative;
+            .form-underline{
+                padding: 10px 70px 10px 5px;
+                border: none;
+                position: relative;
+                border-bottom: 1px solid #000;
+                font-size:25px;
+                display: block;
+                margin-top: 20px;
+            }
+            .reset-password{
+                color: #223260;
+                font-weight: 500;
+                text-decoration: none;
+                position: absolute;
+                top: 65%;
+                right: 0%;
+            }
+            .submit-btn{
+                margin-top: 40px;
+                background-color: #223260;
+                border: none;
+                padding: 8px 154px;
+                color: #fff;
+                border-radius: 5px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    .sign-in-page{
+        .sign-in-page-head{
+            a{
+                font-size: 20px;
+            }
+        }
+        .sign-in{
+            form{
+                .form-underline{
+                    font-size: 16px;
+                    padding: 10px 15px 10px 5px;
+                    border: none;
+                    position: relative;
+                    border-bottom: 1px solid #000;
+                    display: block;
+                    margin-top: 20px;
+                }
+                .reset-password{
+                    color: #223260;
+                    font-weight: 500;
+                    text-decoration: none;
+                    position: absolute;
+                    top: 60%;
+                    right: 0%;
+                    font-size: 14px;
+                }
+                .submit-btn{
+                    margin-top: 40px;
+                    background-color: #223260;
+                    border: none;
+                    padding: 8px 73px;
+                    color: #fff;
+                    border-radius: 5px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

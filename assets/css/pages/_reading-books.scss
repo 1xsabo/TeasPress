@@ -1,0 +1,47 @@
+.reading-books{
+    margin-top: 50px;
+    .reading-books-ad{
+        display: flex;
+        justify-content: center;
+        h1{
+            background-color: rgba(204, 204, 204, 0.248);
+            padding:10px 60px 400px 60px;
+        }
+    }
+    .reading-books-texts{
+        position: relative;
+        text-align: center;
+        .reading-books-texts-head{
+            position: relative;
+            h4{
+                font-size: 20px;
+            }
+        }
+        .reading-books-texts-bottom{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            a{
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: 500;
+                color: #fff;
+                background-color: #223260;
+            }
+        }
+        .reading-books-texts-middle{
+            p{
+                text-align: start !important;
+            }
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0%;
+            right: -10px;
+            background-color: #000;
+            width: 1px;
+            height: 100%;
+        }
+    }
+}
